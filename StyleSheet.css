@@ -1,0 +1,231 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgb(4,9,30,0.7)),url(movies/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.fixed{
+    position: fixed;
+    left: 5%;
+    z-index: 12;
+    background-color: rgba(0, 23, 19, 0.9);
+    background-size:100%;
+    width:100%;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    right: 5%;
+    background-color: rgba(0, 23, 19, 0.9);
+    background-size: 100%;
+}
+.nav-links ul li a{
+    color:floralwhite;
+    text-decoration:none;
+    font-size:13px;
+    font-family:'Book Antiqua';
+
+
+}
+.nav-links ul li:hover {
+    border-bottom:solid;
+    color:#f44336;
+    transition: .1s;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.text-box h1{
+    font: 62px;
+}
+.text-box h1 p{
+    margin:10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top:10px;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover {
+    border: 1px solid #f44336;
+    background:#f44336;
+    transition: 0.5s;
+}
+.form{
+    background-image: url(movies/4.jfif);
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    min-height:100vh;
+}
+.Login {
+    width: 320px;
+    height: 250px;
+    background: rgba(64, 112, 163, 0.9);
+    color: black;
+    top: 40%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius:10px;
+}
+
+.Login h1 {
+    top: 10%;
+    left: 25%;
+    margin:0;
+    padding:0;
+    color:whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    font-size:32px;
+    
+}
+.Login form{
+    margin:50px;
+    position:absolute;
+    top:15%;
+    
+}
+.Login input {
+    width: 100%;
+    padding:5px;
+    left:5%;
+    margin-bottom: 10px;
+    border-color: rgba(0, 123, 207, 0.3);  
+}
+.Login a{
+    font-size:11px;
+    margin-bottom:10px;
+    color:aqua;
+}
+.Login button{
+    position:absolute;
+    margin-top:5px;
+    margin-bottom:5px;
+    width:50%;
+    padding:5px;
+    left:20%;
+    background-color:ButtonHighlight; 
+}
+.list {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.85),rgb(4, 9, 30, 0.85)),url(movies/4186331.jpg);
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: left;
+    width: 100%;
+}
+.row1{
+    display:flex;
+    margin-top:20px;
+}
+
+.row1 img{
+    width:200px;
+    height:250px;
+    border-radius:5px;
+    position:relative;
+    left:20px;
+   float:left;
+   border-bottom:double;
+   color:white;
+}
+.row1 img:hover{
+    transition:0.5s;
+    object-position:top;
+    object-fit:cover;
+    border:solid;
+    border-width:5px;
+    color:darkolivegreen;
+}
+.list-movie {
+    border: thin;
+    border-radius: 30px;
+    background-color: rgba(46, 82, 110, 0.8);
+    width: 80%;
+}
+.list-movie h2{
+    position:relative;
+    left:10%;
+    font-family:'Times New Roman';
+    font-size:28px;
+    color:#fffafa;
+    margin-top:10px;
+}
+.list-movie h3 {
+    position: relative;
+    left: 10%;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: rgba(46, 31, 39, 0.8);
+    margin-top:10px;
+}
+.list-movie p{
+    position: relative;
+    left: 10%;
+    font-family: 'Times New Roman';
+    text-align:justify;
+    font-size: 20px;
+    color: #FAF0E6;
+}
+.fav-btn{
+    width:200px;
+    height:30px;
+    background-color:rgba(96, 178, 145, 0.7);
+    position:relative;
+    left:20px;
+    border-radius:5px;
+    display:normal;
+}
+.fav-btn:hover{
+    background-color:aquamarine;
+    transition:.5s;
+    cursor:pointer;
+}
+.fav-btn:after{
+    background-color:aliceblue;
+    transition:.5s;
+    cursor:pointer;
+}
+
+.footer{
+    background:black;
+    background-position:center;
+    display:none;
+}
+.end h1{
+    position:center;
+    text-align:center;
+    color:white;
+    font-size:18px;
+    font-family:'Times New Roman', Times, serif;
+    display:none;
+}
+
